@@ -9,7 +9,7 @@ const RecentStreams = dynamic(() => import("@/components/data-table"));
 
 export default function Page() {
   return (
-    <div className="p-4 space-y-8">
+    <div className="p-4 space-y-8 w-screen md:w-auto">
       <KeyMetrics />
       <Separator />
       <DataVisualization />

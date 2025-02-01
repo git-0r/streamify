@@ -6,7 +6,7 @@ export default function DataVisualization() {
   return (
     <div className="space-y-4">
       <p className="text-4xl font-bold">Data vizualization</p>
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <UserGrowthChart />
         <RevenueDistributionChart />
         <TopSongsChart />

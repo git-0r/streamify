@@ -11,7 +11,7 @@ export default async function RecentStreams() {
   const data = await getData();
 
   return (
-    <div className="container mx-auto space-y-4">
+    <div className="space-y-4">
       <p className="text-4xl font-bold">Data Table</p>
       <DataTable columns={columns} data={data} />
     </div>
