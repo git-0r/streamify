@@ -1,0 +1,17 @@
+---
+
+services:
+  streamify:
+    container_name: streamify
+    image: streamify/client
+    build: .
+    ports:
+      -"3000:3000"
+    networks:
+      - streamify
+    restart: unless-stopped
+networks:
+  streamify:
+    external: true
+
+# modify further config as required
